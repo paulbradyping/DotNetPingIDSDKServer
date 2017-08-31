@@ -1,5 +1,5 @@
-﻿This .net forms application uses the PingID API
-It uses a PingID properties file from a PingOne Tenant that is being tested. 
+﻿This .net forms application uses the PingID API and the PIngID SDK
+It uses a PingID or SDK properties file from a PingOne Tenant that is being tested. 
 
 Pre- Requisites 
 -PingOne Tenant with PingID. 
@@ -10,9 +10,10 @@ Install
 - Extract the file to a local folder. 
 
 Start the application. 
--To Start the application use the windows explorer and browse to the folder that has PingIDAPI.exe in it.
-Run the PingIDAPI.exe 
+-To Start the application use the windows explorer and browse to the folder that has PingIDAPI-sdk.exe in it.
+Run the PingIDAPI-sdk.exe 
 
+To Test PingID API
 You need the pingID properties file from the PingOne Tenant you are testing with
 Browse to select that file
 
@@ -25,5 +26,15 @@ PingOne if all is correct PingOne will return the user and all the info about th
 Then You can Online Authenticate by clicking the button
 
 To build this app open the project or SLN with Visual Studio.net 2015
+
+To Test the PingID SDK
+
+Select SDK
+
+Import the SDK properties file
+
+Create a Test user. 
+
+Register a device for test user with Test Android App. 
 
 
